@@ -3,10 +3,10 @@ def CheckLeap(Year):
   if ((Year % 400 == 0) or
    (Year % 100 != 0) and
    (Year % 4 == 0)):
-    print("leap Year")
+    return "leap year"
 
   else:
-    print("not a leap Year")
+    return "not a leap Year"
 
 
 print(CheckLeap(2020))
