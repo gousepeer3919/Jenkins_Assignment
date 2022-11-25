@@ -20,6 +20,12 @@ pipeline {
                 steps{
                     echo "This step is monitoring"
                 }
-            }
+            }
+            stage('demo){
+                steps{
+                    echo "this step isn demo"
+                }
+            }
+            
         }
 }
